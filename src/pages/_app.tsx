@@ -1,4 +1,4 @@
-import '../styles/globals.css';
+import '@styles/globals.css';
 import type {AppType} from 'next/app';
 
 const App: AppType = ({Component, pageProps}) => {
