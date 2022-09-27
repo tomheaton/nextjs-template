@@ -3,22 +3,22 @@ import Head from 'next/head';
 
 const Index: NextPage = () => {
     return (
-        <div>
+        <div className={"flex flex-col h-screen w-full items-center justify-center"}>
             <Head>
-                <title>nextjs-template</title>
+                <title>tomheaton/nextjs-template</title>
                 <meta name="description" content="Generated from tomheaton/nextjs-template"/>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <main className={"min-h-screen w-full items-center justify-center"}>
-                <h1 className={"font-bold text-5xl"}>
-                    nextjs-template
-                </h1>
+            <h1 className={"font-bold text-5xl"}>
+                tomheaton/nextjs-template
+            </h1>
 
-                <p className={"text-lg"}>
-                    A Next.js template with TypeScript and TailwindCSS.
-                </p>
-            </main>
+            <br/>
+
+            <p className={"text-lg"}>
+                A Next.js template with TypeScript and TailwindCSS.
+            </p>
         </div>
     );
 }
