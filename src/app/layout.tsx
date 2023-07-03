@@ -1,9 +1,9 @@
-import '@styles/globals.css';
-import {PropsWithChildren} from "react";
+import "@styles/globals.css";
+import type { PropsWithChildren } from "react";
 
-const RootLayout = ({children}: PropsWithChildren) => {
+export default function RootLayout({ children }: PropsWithChildren) {
     return (
-        <html lang={"en"}>
+        <html lang="en">
             <head>
                 <title>tomheaton/nextjs-template</title>
                 <meta name="description" content="Generated from tomheaton/nextjs-template"/>
@@ -15,5 +15,3 @@ const RootLayout = ({children}: PropsWithChildren) => {
         </html>
     );
 }
-
-export default RootLayout;
